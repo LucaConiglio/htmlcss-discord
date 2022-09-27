@@ -3,20 +3,34 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+h1{
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+h2{
+    font-size: 2rem;
+    line-height: 2.6rem;
+}
+h3{
+    font-size: 1.5rem;
+}
 .container{
     width: 920px;
-    padding: 3rem 0;
+    padding: 6rem 0;
     
 }
-
+.arrow{
+    font-weight: 900;
+    font-size: 18px;
+}
 .toplaner{
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    padding-bottom: 50px;
     background-position: center;
+    padding-bottom: 1rem;
 }
 header{
-    padding: 1rem 0;
+    padding: 1rem 0 0;
     background-color: rgb(37, 94, 233);
 }
 .top{
@@ -24,7 +38,6 @@ header{
     justify-content: space-between;
     padding: 10px 0;
     align-items: center;
-    
 }
 .logo-discord{
     width: 100px;
@@ -33,7 +46,7 @@ header{
     width: 150px;
 }
 .login button{
-padding: 8px;
+padding: .7rem;
 background-color: white;
 border-radius: 20px;
 border: none;
@@ -45,13 +58,15 @@ border: none;
     flex-grow: 1;
 }
 .link ul{
-    text-align: center;
-    line-height: 29.67px;
-}
-li{  
-    list-style: none;
-    display: inline-block;
     padding:0 10px;
+    list-style: none;
+    display: flex;
+    column-gap: 10px;
+}
+.link-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 li a{
     color: white;
@@ -67,15 +82,15 @@ li a{
     color: white;
     text-align: center;
 }
-.container-small h1{
-    padding-bottom: 20px;
+.container-small h2{
+    padding-bottom: 2rem;
 }
 .container-small p{
     line-height: 25px;
     padding-bottom: 15px;
 }
 .container-small button{
-    padding: 10px 12px;
+    padding: .8rem 1rem;
     border-radius: 30px;
     border: none;
     font-weight: 600;
@@ -83,54 +98,95 @@ li a{
 .container-small .button-browser{
     color: white;
     background-color: rgb(35, 39, 42);
-}
-
-main{
-    background-color: rgba(0, 255, 149, 0.797);
+    padding: 1rem;
 }
 .container{
     display: flex;
 }
 .col-1{
-width: 70%;
-}
-.second h1{
-    padding: 30px 0px 30px 20px;
-}
-.second p{
-    padding: 0 20px;
-    line-height: 25px;
+width: 65%;
 }
 .col-2{
- width: 30%;
+    width: 35%;
+}
+.row-1 h2{
+    padding: 1.3rem 0 2rem 1rem;
+
+}
+.row-1 p{
+    line-height: 1.5rem;
 }
 .reverse{
     flex-direction: row-reverse;
     padding-top: 100px;  
 }
-.reverse .col-2 h1{
-    padding: 30px 0;
+.reverse .col-2 h2{
+    padding: 1.7rem 0;
 }
 .reverse .col-2 p{
-    line-height: 25px;
+    line-height: 1.5rem;
 }
 .background-white{
     background-color: white;
 }
 .background-grey{
     background-color: rgba(246, 246, 246);
-    
 }
-.green{
-    background-color: green;
-    height: 300px;
+.col-1 .item1{
+    width: 90%;
+}
+.col-1 .item2{
     width: 100%;
+}
+.col-1 .item3{
+    width: 100%;
+    padding-left: 1rem;
+}
+.container .row-3 h2{
+    padding: 1.4rem 0;
+    padding-left: 1rem;
+}
+.container .row-3 p{
+    line-height: 1.5rem;
+    padding-left: 1rem;
+}
+.ultimo-container{
+    text-align: center;
+}
+.ultimo-container h2{
+    padding-bottom: 1.7rem;
+}
+.ultimo-container p{
+    line-height: 1.5rem;
+}
+.ultimo-container .item4{
+    width: 100%;
+}
+.centrale-small{
+    text-align: center;
+    width: 720px;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+.centrale-small h3{
+    padding: 1rem 0 2rem;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+}
+.centrale-small .button-mac{
+    padding: .8rem 1rem;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    background-color: rgb(114, 137, 218);
+    color: white;
+
 }
 footer{
     background-color: rgba(21, 21, 21, 0.918);
+    padding-top: 3rem;
 }
 .last{
-    height: 200px;
     padding-top:1rem;
     padding-bottom: 2rem;
     display: flex;
@@ -138,12 +194,39 @@ footer{
 .primo{
     width: 35%;
     border: 1px solid orange;
-    background-color: brown;
+    color: white;
+}
+.primo h3{
+    padding-bottom: 0.5rem;
+    color: rgb(114, 137, 218);
+}
+.icons img{
+    width: 1.6rem;
+    vertical-align: text-top;
+}
+#entity{
+    vertical-align: text-bottom;
+    font-size: 20px;
+}
+.icons i{
+    padding: .8rem 1.2rem 0 0;
+    font-size: 1rem;
 }
 .normal{
     border: 1px solid violet;
     width: 20%;
-    background-color: rgba(51, 212, 252, 0.731);
+}
+.normal h4{
+    color: rgb(114, 137, 218);
+    padding-bottom: .5rem;
+}
+.normal ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.normal li{
+    padding-bottom: .6rem;
 }
 .logo-botton{
     height: 50px;
@@ -151,14 +234,11 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 .logo2{
     width: 7%;
     border: 2px solid white;
     text-align: center;
-    
-
 }
 .divcenter{
  flex-grow: 1;
