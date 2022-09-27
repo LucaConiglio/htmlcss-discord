@@ -180,10 +180,9 @@ width: 65%;
     font-weight: 600;
     background-color: rgb(114, 137, 218);
     color: white;
-
 }
 footer{
-    background-color: rgba(21, 21, 21, 0.918);
+    background-color: rgb(35, 39, 42);
     padding-top: 3rem;
 }
 .last{
@@ -193,7 +192,6 @@ footer{
 }
 .primo{
     width: 35%;
-    border: 1px solid orange;
     color: white;
 }
 .primo h3{
@@ -213,7 +211,6 @@ footer{
     font-size: 1rem;
 }
 .normal{
-    border: 1px solid violet;
     width: 20%;
 }
 .normal h4{
@@ -229,27 +226,25 @@ footer{
     padding-bottom: .6rem;
 }
 .logo-botton{
-    height: 50px;
-    background-color: aquamarine;
+    padding: 1rem 0 2.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo2{
-    width: 7%;
-    border: 2px solid white;
-    text-align: center;
+.logo2 img{
+    width: 6rem;
+}
+.botton button{
+    padding: .6rem;
+    background-color: rgb(114, 137, 218);
+    border-radius: 20px;
+    border: none;
+    color: white;
 }
 .divcenter{
  flex-grow: 1;
 }
-.botton{
-    width: 7%;
-    border: 2px solid white;
-    text-align: center;
-}
 .mini-last{
     width: 920px;
-    background-color: rgba(21, 21, 21, 0.918);
-    padding-top: 2rem;
+    border-top: 1px solid  rgb(114, 137, 218);
 }
