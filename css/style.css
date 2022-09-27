@@ -3,7 +3,8 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
+
+h1 {
     font-size: 2.5rem;
     padding-bottom: 2rem;
 }
@@ -258,4 +259,11 @@ svg{
     color:rgba(35, 39, 42, 0.082);
     -webkit-transform: rotate(180deg);
     
+}
+.svg-rovesciato {
+height: 199.17px;
+background-image: url("../img/wave.svg");
+-webkit-transform: rotate(-180deg);
+fill:white;
+filter: opacity(0.07);
 }
